@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+
+:root{
+
+    --fonte-family:'Kablammo', cursive; 
+    --cor-texto: #22A39F;
+    --cor-fundo: #222222 ;
+}
+
+body{
+    min-height: 100vh;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family: var(--fonte-family);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+h1{
+
+    font-size: 5em;
+}
+h2{
+    font-size: 6em;
+}
+h3{
+    font-size: 3em;
+    margin-top: 0.5em;
+}
+h4{
+    font-size: 5em;
+}
+.mensagem{
+    font-size: 1.5em;
+    margin-top: 50px;
+}
+.box{
+    border: 2px solid var(--cor-texto);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
+.btn-novamente{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 100px;
+    background-color: var(--cor-texto);
+    color: var(--cor-fundo);
+    margin-top: 10px;
+    padding: 8px 15px;
+    border:0;
+}
+.btn-novamente:hover{
+
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+}
