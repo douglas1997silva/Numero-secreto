@@ -1,6 +1,6 @@
 # Encontre o Número Secreto por Comando de Voz
 
-![Microfone Emoji](microfone.png) ![Jogo Emoji](jogo.png) ![Número Emoji](número.png)
+
 
 Bem-vindo ao "Encontre o Número Secreto por Comando de Voz"! Este é um jogo interativo que desafia os jogadores a encontrar um número aleatório gerado pela máquina usando comandos de voz.
 
